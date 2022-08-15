@@ -1,0 +1,61 @@
+#segundo {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#segundo > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#segundo > div article:not(#segundo > div article:first-of-type) {
+  margin-top: 6rem;
+}
+#segundo article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  witdh: 50%;
+}
+#segundo article img {
+  height: 150px;
+}
+#segundo article div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+}
+#segundo article div span {
+  margin-bottom: 0.5rem;
+  color: #9e9e9e;
+}
+#segundo article div span b {
+  color: black;
+  font-size: 1.5rem;
+}
+#segundo article div p {
+  margin: 1rem 0 0 0;
+  color: #9e9e9e;
+}
